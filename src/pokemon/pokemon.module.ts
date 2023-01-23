@@ -16,5 +16,6 @@ import { Schema } from '@nestjs/mongoose/dist';
       },
     ]),
   ],
+  exports: [MongooseModule]
 })
 export class PokemonModule {}
